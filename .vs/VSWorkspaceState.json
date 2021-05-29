@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\APICardFinal",
+    "\\APICardFinal\\Controllers",
+    "\\APICardFinal\\Data",
+    "\\APICardFinal\\Interface",
+    "\\APICardFinal\\Properties",
+    "\\APICardFinal\\Services",
+    "\\APICardFinal\\ViewModel"
+  ],
+  "SelectedNode": "\\APICardFinal\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +13,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using APICardFinal.Data;
+using APICardFinal.Interface;
+using APICardFinal.Services;
 
 namespace APICardFinal
 {
@@ -28,15 +30,27 @@ namespace APICardFinal
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string mySqlConnection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContextPool<CardDbContext>(options => options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
-
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "APICardFinal", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "API Card",
+                    Version = "v1",
+                    Description = "API VaiVoa",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "AJ",
+                        Email = string.Empty,
+                        Url = new Uri("https://github.com"),
+                    },
+                });;;
             });
 
+            services.AddDbContext<APICardFinalContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("APICardFinalContext")));
+            services.AddTransient<IServiceCard, CardService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,9 +59,15 @@ namespace APICardFinal
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "APICardFinal v1"));
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Card API V1");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseHttpsRedirection();
 

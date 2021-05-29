@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICardFinal", "APICardFinal\APICardFinal.csproj", "{DAB08103-6EC8-4A2C-AAAA-EBBB652D7449}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICardFinal", "APICardFinal\APICardFinal.csproj", "{DADDFFBA-404C-4A09-949E-10DE284035DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DAB08103-6EC8-4A2C-AAAA-EBBB652D7449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAB08103-6EC8-4A2C-AAAA-EBBB652D7449}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAB08103-6EC8-4A2C-AAAA-EBBB652D7449}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAB08103-6EC8-4A2C-AAAA-EBBB652D7449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADDFFBA-404C-4A09-949E-10DE284035DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADDFFBA-404C-4A09-949E-10DE284035DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADDFFBA-404C-4A09-949E-10DE284035DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADDFFBA-404C-4A09-949E-10DE284035DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4F0C6D74-94C2-40AA-9111-48CA583EA45C}
+		SolutionGuid = {DB3513F5-D6B3-40D9-91E3-E45D32F21147}
 	EndGlobalSection
 EndGlobal
