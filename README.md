@@ -51,20 +51,20 @@ O Visual Studio é um ambiente de desenvolvimento integrado que permite a quem o
 
 ## Algumas das referencias que pesquisei:
 
-# https://github.com/caelum/apostila-csharp-orientacao-objetos?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
+## https://github.com/caelum/apostila-csharp-orientacao-objetos?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
 
-# https://12factor.net/pt_br/?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
+## https://12factor.net/pt_br/?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
 
-# https://martinfowler.com/articles/is-quality-worth-cost.html?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
+## https://martinfowler.com/articles/is-quality-worth-cost.html?utm_campaign=aprovados_teste_me_julho_2021&utm_medium=email&utm_source=RD+Station
 
-# https://docs.microsoft.com/pt-br/dotnet/csharp/
+## https://docs.microsoft.com/pt-br/dotnet/csharp/
 
-# https://www.caelum.com.br/apostila-csharp-orientacao-objetos/o-que-e-c-e-net#null
+## https://www.caelum.com.br/apostila-csharp-orientacao-objetos/o-que-e-c-e-net#null
 
-# https://pt.stackoverflow.com/
+## https://pt.stackoverflow.com/
 
-# https://www.devmedia.com.br/desenvolvimento-em-net/18468
+## https://www.devmedia.com.br/desenvolvimento-em-net/18468
 
-# https://medium.com/@adlerpagliarini/entity-framework-core-3-e-5-heran%C3%A7a-e-relacionamentos-1e0657f1b1f0
+## https://medium.com/@adlerpagliarini/entity-framework-core-3-e-5-heran%C3%A7a-e-relacionamentos-1e0657f1b1f0
 
-# https://docs.microsoft.com/pt-br/ef/ef6/what-is-new/
+## https://docs.microsoft.com/pt-br/ef/ef6/what-is-new/
